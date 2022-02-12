@@ -1,0 +1,33 @@
+.section-3 {
+    max-width: 1600px;
+    min-height: 790px;
+    background: #3C3355;
+    background-color: linear-gradient(90deg, #3B3253 0%, rgba(57, 48, 80, 0) 100%);
+}
+
+.sec-3-inner {
+    padding-top: 46px;
+    padding-left: 194px;
+}
+
+.playing-skill {
+    color: #4EA4DC;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.btn-play {
+    background: #000;
+    border-radius: 11.5px;
+    padding: 3px 9px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.sec-3-title {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Lato;
+}
