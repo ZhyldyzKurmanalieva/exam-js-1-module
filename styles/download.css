@@ -1,13 +1,20 @@
+.container, .sec-3-inner-inner{
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
 .section-3 {
     max-width: 1600px;
     min-height: 790px;
-    background: var(--bg-color);
-    background-color: linear-gradient(90deg, #3B3253 0%, rgba(57, 48, 80, 0) 100%);
+    background: #3C3355;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .sec-3-inner {
     padding-top: 46px;
-    padding-left: 194px;
     float: left;
 }
 
@@ -50,8 +57,8 @@
 
 .sec-3-cards {
     margin-top: 41px;
+    display: flex;
 }
-
 
 .card {
     max-width: 97px;
@@ -60,10 +67,23 @@
     background-image: url("../imeges/pngwing\ 4.png") center center no-repeat;
     border-radius: 10px;
     text-align: center;
+    margin-right: 33px;
+}
+
+.sec-3-third-card {
+    margin-right: 0;
+}
+
+.sec-3-clip {
+    display: flex;
+    justify-content: center;
 }
 
 .sec-3-big-clip {
-    margin: 116px 0 0 89px
+    margin: 116px 0 0 89px;
+    max-width: 80%;
+    width: 100%;
+    
 }
 
 .sliders {
@@ -76,7 +96,8 @@
 }
 
 .try-free {
-    padding: 15px 55px;
+    width: 169px;
+    height: 56px;
     margin-top: 40px;
 }
 
@@ -86,13 +107,15 @@
     border-radius: 5px;
     color: var(--bg-btns);
     font-size: 1rem;
-    padding: 15px 47px;
+    width: 169px;
+    height: 56px;
 }
 
 .sec-3-main {
     background: url("../backgrounds/Rectangle\ 11.png") no-repeat;
-    min-height: 675px;
-    margin-top: 298px;
+    min-height: 450px;
+    margin-top: 500px;
+    position: relative;
 }
 
 .sec-3-main-title {
@@ -101,16 +124,25 @@
     font-weight: 800;
     color: #fff;
     margin-top: 113px;
-    margin-right: 397px;
     line-height: 54px;
+    margin-right: 150px;
 }
 
 .sec-3-main-inner {
-    float: right
+    float: right;
+    max-width: 956px;
+    
 }
 
 .sec-3-main-phone {
-    float: left;
+    margin-left: 93px;
+    position: relative;  
+}
+
+.phone {
+    position: absolute;
+    z-index: 999;
+    margin-top: -161px;
 }
 
 .sec-3-main-text {
@@ -121,4 +153,72 @@
 
 .download-links {
     margin-top: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .sec-3-inner-inner{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .sec-3-inner {
+       padding-left: 30px;
+       
+    }
+
+    .sec-3-main {
+        margin-top: 50px;
+    }
+
+    .sec-3-main-title {
+        margin-right: 50px;
+    }
+
+    .phone {
+        max-width: 265px;
+        height: auto;
+        top: 0;
+        margin-top: 0;
+        margin-right: 467px;
+    }
+    
+    .sec-3-main-phone {
+        float: none;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        z-index: 0;
+    }
+
+    .sec-3-big-clip {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .sec-3-inner, .sec-3-main-inner {
+        padding-left: 11px;
+        text-align: center;
+    }
+    
+    .card {
+        margin-right: 6px;
+    }
+    
+    .try-free, .download {
+        width: 148px;
+    }
+
+    .sec-3-big-clip {
+        display: none;
+    }
+
+    .sec-3-main-title {
+        margin-top: 37px;
+        margin-right: 0;
+    }
+    
+    .sliders {
+        max-width: 96%;
+    }
 }
