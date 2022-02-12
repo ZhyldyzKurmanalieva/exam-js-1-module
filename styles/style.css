@@ -3,6 +3,14 @@
 @import "./header.css";
 @import "./lastfooter.css";
 
+:root {
+	--bg-color: #3C3355;
+	--size-title: 39px;
+	--size-text: 1rem;
+	--white: #fff;
+	--bg-btns: #4EA4DC;
+}
+
 *,
 *::before,
 *::after {
