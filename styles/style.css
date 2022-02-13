@@ -1,7 +1,9 @@
-@import "./advertising.css";
+@import "./section-2.css";
+@import "./lastfooter.css";
 @import "./download.css";
 @import "./header.css";
-@import "./lastfooter.css";
+
+
 
 :root {
 	--bg-color: #3C3355;
@@ -18,6 +20,12 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+html{
+	width: 100%;
+	overflow: hidden;
+}
+
 a {
 	color: currentColor;
 	text-decoration: none;
