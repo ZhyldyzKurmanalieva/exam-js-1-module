@@ -85,3 +85,31 @@
         margin-right: 30px;
     }
 }
+
+.footer{
+    background-color: #01020C;
+    background-image: url(../backgrounds/pngwing\ 2\ \(1\).png);
+    display: flex;
+    font-display: row;
+    color: #fff;
+    height: 300px;
+}
+
+.footer__text1{
+    display: flex;
+}
+.footer__text2{
+	display: flex;
+}
+.footer__text3{
+	display: flex;
+}
+
+.last-icon{
+    height: 67px;
+width: 67px;
+left: 233px;
+top: 4760px;
+border-radius: 0px;
+
+}
