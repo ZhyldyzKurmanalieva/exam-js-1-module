@@ -1,0 +1,235 @@
+.background-1 {
+  width: 100%;
+  height: 587px;
+  background: url('../backgrounds/Group426.png') top right no-repeat;
+  background-size: cover;
+}
+.block-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.urger-bnt {
+  display: none;
+}
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.logo-2 {
+  display: none;
+}
+.menu {
+  width: 420px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link:hover {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  opacity: 1;
+}
+.link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: capitalize;
+  color: #ffffff;
+  opacity: 0.7;
+  font-family: 'Lato', sans-serif;
+}
+.btn {
+  background: #4ea4dc;
+  padding: 14px 30px;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 120%;
+  color: #ffffff;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-family: 'Lato', sans-serif;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 30px;
+
+  width: 581px;
+  height: 424px;
+}
+.text-1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #4ea4dc;
+}
+.heading {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 75px;
+  line-height: 125%;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+
+.text-2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+.text-3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: capitalize;
+  opacity: 0.7;
+  color: #ffffff;
+  font-family: 'Lato', sans-serif;
+}
+.btn-box {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-2 {
+  width: 155px;
+  height: 53px;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  background: #4ea4dc;
+  border-radius: 5px;
+}
+.btn-2:hover {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  padding: 100%;
+  padding: 15px 25px;
+  width: 155px;
+  height: 53px;
+  color: #4ea4dc;
+  border: 1px solid rgba(78, 164, 220, 0.3);
+  background: none;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .btn-2:hover{
+    width: 126px;
+    height: 37px;
+  }
+
+  .link {
+    display: none;
+  }
+  .btn-2 {
+    width: 126px;
+    height: 37px;
+  }
+  .btn-box {
+    width: 280px;
+  }
+  .urger-bnt {
+    display: block;
+  }
+  .header {
+    height: 35px;
+  }
+  .btn {
+    font-size: 8px;
+  }
+  .content {
+    width: 395px;
+    height: 272px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+  .text-2 {
+    font-size: 15px;
+  }
+  .text-3 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .logo-2 {
+    position: absolute;
+    top: 50px;
+    left: 35%;
+    display: block;
+    width: 70px;
+    height: 70px;
+  }
+  .background-1 {
+
+    background: linear-gradient(
+      90deg,
+      rgba(48, 47, 79, 0.94) 24.45%,
+      rgba(47, 47, 79, 0.87) 42.53%,
+      rgba(45, 45, 77, 0.24) 91.42%
+    );
+    align-items: center;
+  }
+  .logo {
+    display: none;
+  }
+  .content {
+    width: 250px;
+    height: 170px;
+    margin-top: 100px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .menu {
+    display: none;
+  }
+  .btn-box {
+    width: 350px;
+  }
+  .text-1 {
+    font-size: 10px;
+  }
+  .text-2 {
+    font-size: 8px;
+  }
+  .text-3 {
+    font-size: 8px;
+  }
+  .btn-box {
+    flex-direction: column;
+    height: 115px;
+    margin-left: 25%;
+  }
+  .btn-2 {
+    margin-top: 15px;
+  }
+  .heading {
+    font-size: 20px;
+  }
+}
