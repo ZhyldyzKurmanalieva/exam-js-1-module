@@ -23,7 +23,7 @@
 .playing-skill {
     color: var(--bg-btns);
     text-transform: uppercase;
-    font-family: Lato;
+    font-family: 'Lato' sans-serif;
     font-weight: 500;
     letter-spacing: 0.05em;
 }
@@ -32,7 +32,7 @@
 .sec-3-title {
     text-transform: capitalize;
     color: var(--white);
-    font-family: Lato;
+    font-family: 'Lato' sans-serif;
     font-size: var(--size-title);
     font-weight: 800;
     margin-top: 10px;
