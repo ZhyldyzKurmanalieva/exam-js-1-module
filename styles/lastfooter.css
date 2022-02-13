@@ -1,0 +1,190 @@
+.section-4 {
+    text-align: center;
+    background: #3c3355;
+}
+
+.sec-4-title {
+    font-size: 39px;
+    color: #fff;
+    padding-top: 130px;
+}
+
+.sec-4-cont {
+    background: url("../backgrounds/patten.png");
+    min-height: 866px;
+}
+
+.sec-4-text {
+    opacity: 0.7;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.sec-4-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.sec-4-list-item {
+    margin-right: 30px;
+}
+
+.sec-4-list-item:last-child {
+    margin-right: 0;
+}
+
+.sec-4-card {
+    text-align: start;
+}
+
+.sec-4-titles {
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 29px;
+    margin-bottom: 12px;
+}
+
+.sec-4-texts {
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.7;
+}
+
+.sec-4-img-cards:hover {
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+.sec-4-price {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.sec-4-prices-one {
+    text-decoration-line: line-through;
+    opacity: 0.6;
+    margin-left: 10px;
+}
+
+.sec-4-prices-two {
+    margin-left: 9px;
+}
+
+@media screen and (max-width: 768px) {
+    .sec-4-list-item {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .sec-4-list-item:last-child {
+        margin-right: 30px;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.footer{
+    background-image: url(../backgrounds/pngwing\ 2\ \(1\).png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #01020C;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+
+}
+.footer hr{
+    width: 100%;
+    color: #fff;
+    opacity: 0.7;
+    height: 1px;
+    margin-top: 51px;
+    margin-bottom: 25px;
+}
+.footer__main{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+    flex-wrap: wrap;
+    
+}
+
+.footer__main div{
+    width: 240px;
+    margin-top: 80px;
+}
+
+.footer__main h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+li a, .footer__block-1 p, li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 10px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.footer__sub{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 42px;
+}
+
+.footer__block-4 li{
+    display: flex;
+    align-items: center;
+}
+
+#privacy{
+    margin-right: 31px;
+}
+.social-media{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.footer a:hover{
+    opacity: 1.0;
+    
+}
+
+.ggg{
+    margin-right: 13px;
+}
+
+@media  screen and (max-width: 900px){
+    .footer__main{
+        justify-content: center;
+    }
+}
+
+.footer__block-1 img{
+    margin-bottom: 15px;
+}
