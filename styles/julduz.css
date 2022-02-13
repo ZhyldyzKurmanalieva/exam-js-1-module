@@ -19,7 +19,7 @@
       margin: 0 auto;
       min-height: 378px;
       padding-top: 80px;
-      font-family: Lato;
+      font-family: "Lato", sans-serif;
       font-weight: bold;
       font-size: 37px;
       font-style: normal;
@@ -30,7 +30,7 @@
   .cart_desc{
     max-width: 430px;
     height: 52px;
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -62,7 +62,7 @@
 
   .card_1 h3{
     margin-top:24px;
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -76,7 +76,7 @@ color: #FFFFFF;
   }
   .card_1 p{
       
-font-family: Lato;
+font-family: "Lato", sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -191,7 +191,7 @@ margin-top: 15px;
   .cont_block h2{
     max-width: 317px;
     height: 110px;
-    font-family: Lato;
+    font-family: "Lato", sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 39px;
@@ -201,7 +201,7 @@ margin-top: 15px;
   }
   .cont_text{
       text-align: start;
-      font-family: Lato;
+      font-family: "Lato", sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
