@@ -86,30 +86,105 @@
     }
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .footer{
-    background-color: #01020C;
     background-image: url(../backgrounds/pngwing\ 2\ \(1\).png);
     display: flex;
-    font-display: row;
+    flex-direction: column;
+    align-items: center;
+    background-color: #01020C;
     color: #fff;
-    height: 300px;
-}
+    font-family: 'Lato', sans-serif;
 
-.footer__text1{
+}
+.footer hr{
+    width: 100%;
+    color: #fff;
+    opacity: 0.7;
+    height: 1px;
+    margin-top: 51px;
+    margin-bottom: 25px;
+}
+.footer__main{
     display: flex;
-}
-.footer__text2{
-	display: flex;
-}
-.footer__text3{
-	display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+    flex-wrap: wrap;
+    
 }
 
-.last-icon{
-    height: 67px;
-width: 67px;
-left: 233px;
-top: 4760px;
-border-radius: 0px;
+.footer__main div{
+    width: 240px;
+    margin-top: 80px;
+}
 
+.footer__main h5{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+li a, .footer__block-1 p, li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 10px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.footer__sub{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 42px;
+}
+
+.footer__block-4 li{
+    display: flex;
+    align-items: center;
+}
+
+#privacy{
+    margin-right: 31px;
+}
+.social-media{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.footer a:hover{
+    opacity: 1.0;
+    
+}
+
+.ggg{
+    margin-right: 13px;
+}
+
+@media  screen and (max-width: 900px){
+    .footer__main{
+        justify-content: center;
+    }
+}
+
+.footer__block-1 img{
+    margin-bottom: 15px;
 }
